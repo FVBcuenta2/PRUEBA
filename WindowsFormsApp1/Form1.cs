@@ -21,6 +21,8 @@ namespace WindowsFormsApp1
         {
             int num;
             num=int.Parse(textBox1.Text);
+            int num2=6;
+            num=num+num2;
             MessageBox.Show("El numero es" + num);
         }
     }
